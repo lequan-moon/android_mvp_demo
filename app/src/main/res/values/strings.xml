@@ -4,4 +4,5 @@
     <string name="error_number_zero">Hãy nhập số khác 0</string>
     <string name="error_common">Có lỗi xảy ra</string>
     <string name="error_min_number_1">Hãy nhập số lơn hơn hoặc bằng 1</string>
+    <string name="exit_confirm">Bạn có muốn thoát?</string>
 </resources>

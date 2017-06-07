@@ -7,6 +7,8 @@ import android.app.DialogFragment;
 import android.content.DialogInterface;
 import android.os.Bundle;
 
+import com.example.quanlm.project01_mvp.R;
+
 /**
  * Created by QuanLM on 5/30/2017.
  */
@@ -23,7 +25,7 @@ public class ConfirmDialogFragment extends DialogFragment {
         } catch (ClassCastException ex) {
             System.out.print(ex.getMessage());
         }
-        builder.setMessage("Ban co muon thoat?");
+        builder.setMessage(hostActivity.getResources().getString(R.string.exit_confirm));
         builder.setPositiveButton("Yes", listener);
         builder.setNegativeButton("No", listener);
         return builder.create();
